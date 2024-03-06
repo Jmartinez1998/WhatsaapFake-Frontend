@@ -1,0 +1,15 @@
+@import "../../../../../assets/styles/variables";
+@import "../../../../../assets/styles/whatsapp/animation-keyframes";
+
+.emojis {
+    height: 0;
+    transition: height 0.5s ease-in;
+    background-color: var(--panel-emojis-background-color);
+    overflow: hidden;
+
+    &.is-open {
+        height: $panel-emoji-height;
+    }
+
+}
+
